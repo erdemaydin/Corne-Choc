@@ -151,7 +151,7 @@
         compatible = "zmk,conditional-layers";
 
         adjust {
-            if-layers = <3 1>;
+            if-layers = <1 2>;
             then-layer = <3>;
         };
     };
