@@ -126,5 +126,10 @@
             if-layers = <1 2>;
             then-layer = <3>;
         };
+
+        mouse_layer {
+            if-layers = <0>;
+            then-layer = <4>;
+        };
     };
 };
