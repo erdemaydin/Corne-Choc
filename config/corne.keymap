@@ -39,7 +39,51 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        ij_selected_task_run {
+            bindings = <&kp LS(LC(F10))>;
+            key-positions = <5 4>;
+            layers = <0>;
+        };
+
+        ij_last_run_task_run {
+            bindings = <&kp LS(F10)>;
+            key-positions = <4 3>;
+            layers = <0>;
+        };
+
+        ij_stop_running_task {
+            bindings = <&kp LG(F2)>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        ij_project_files {
+            bindings = <&kp LG(NUMBER_1)>;
+            key-positions = <6 7>;
+            layers = <0>;
+        };
+
+        ij_recent {
+            bindings = <&kp LG(E)>;
+            key-positions = <17 16>;
+            layers = <0>;
+        };
+
+        ij_next_split {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        ij_recent_tabbed {
+            bindings = <&kp LS(LG(E))>;
+            key-positions = <17 16 15>;
+            layers = <0>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -82,16 +126,16 @@
             //                    | GUI |     | ENT |   | SPC |     | ALT |
 
             bindings = <
-&trans  &kp LG(LS(GRAVE))  &kp F1  &kp F2    &kp F3   &kp F4     &kp PAGE_UP    &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp LG(BACKSPACE)  &trans
-&trans  &kp LC(RIGHT)      &kp F5  &kp F6    &kp F7   &kp F8     &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp DELETE         &kp RCTRL
-&trans  &kp C_AL_LOCK      &kp F9  &kp F10   &kp F11  &kp F12    &kp HOME       &kp END             &kp LG(TILDE)   &kp LG(GRAVE)        &kp CAPSLOCK       &trans
-                                   &kp LGUI  &trans   &kp RET    &kp SPACE      &trans              &kp RALT
+&kp K_LOCK  &kp LG(LS(GRAVE))  &kp F1  &kp F2    &kp F3   &kp F4     &kp PAGE_UP    &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp LG(BACKSPACE)  &trans
+&trans      &kp LC(RIGHT)      &kp F5  &kp F6    &kp F7   &kp F8     &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp DELETE         &kp RCTRL
+&trans      &none              &kp F9  &kp F10   &kp F11  &kp F12    &kp HOME       &kp END             &kp LG(TILDE)   &kp LG(GRAVE)        &kp CAPSLOCK       &trans
+                                       &kp LGUI  &trans   &kp RET    &kp SPACE      &trans              &kp RALT
             >;
         };
 
         adjust {
             bindings = <
-&bootloader     &none         &none         &none         &none         &studio_unlock    &kp C_VOLUME_UP    &kp C_BRI_UP   &none     &none  &none   &trans
+&none           &none         &none         &none         &none         &studio_unlock    &kp C_VOLUME_UP    &kp C_BRI_UP   &none     &none  &none   &trans
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp C_VOLUME_DOWN  &kp C_BRI_DEC  &none     &none  &none   &trans
 &bt BT_CLR_ALL  &trans        &trans        &trans        &bt BT_PRV    &bt BT_NXT        &caps_word         &none          &none     &none  &trans  &trans
                                             &kp LGUI      &trans        &kp RET           &kp SPACE          &trans         &kp RALT
