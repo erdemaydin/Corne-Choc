@@ -50,7 +50,7 @@
 
         ij_last_run_task_run {
             bindings = <&kp LS(F10)>;
-            key-positions = <4 3>;
+            key-positions = <4 3 5>;
             layers = <0>;
         };
 
@@ -62,25 +62,25 @@
 
         ij_project_files {
             bindings = <&kp LG(NUMBER_1)>;
-            key-positions = <6 7>;
+            key-positions = <30 31>;
             layers = <0>;
         };
 
         ij_recent {
             bindings = <&kp LG(E)>;
-            key-positions = <17 16>;
+            key-positions = <18 19>;
             layers = <0>;
         };
 
         ij_next_split {
             bindings = <&kp LA(TAB)>;
-            key-positions = <30 31>;
+            key-positions = <32 33>;
             layers = <0>;
         };
 
         ij_recent_tabbed {
             bindings = <&kp LS(LG(E))>;
-            key-positions = <17 16 15>;
+            key-positions = <18 19 20>;
             layers = <0>;
         };
     };
