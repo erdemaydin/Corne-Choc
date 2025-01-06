@@ -83,6 +83,12 @@
             key-positions = <18 19 20>;
             layers = <0>;
         };
+
+        ij_statusbar_nav {
+            bindings = <&kp LA(LG(DOWN_ARROW))>;
+            key-positions = <30 31 32>;
+            layers = <0>;
+        };
     };
 
     keymap {
