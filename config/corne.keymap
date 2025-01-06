@@ -132,10 +132,10 @@
             //                    | GUI |     | ENT |   | SPC |     | ALT |
 
             bindings = <
-&kp K_LOCK  &kp LG(LS(GRAVE))  &kp F1  &kp F2    &kp F3   &kp F4     &kp PAGE_UP    &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp LG(BACKSPACE)  &trans
-&trans      &kp LC(RIGHT)      &kp F5  &kp F6    &kp F7   &kp F8     &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp DELETE         &kp RCTRL
-&trans      &none              &kp F9  &kp F10   &kp F11  &kp F12    &kp HOME       &kp END             &kp LG(TILDE)   &kp LG(GRAVE)        &kp CAPSLOCK       &trans
-                                       &kp LGUI  &trans   &kp RET    &kp SPACE      &trans              &kp RALT
+&kp C_AL_LOCK  &kp LG(LS(GRAVE))  &kp F1  &kp F2    &kp F3   &kp F4     &kp PAGE_UP    &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &kp LG(BACKSPACE)  &trans
+&trans         &kp LC(RIGHT)      &kp F5  &kp F6    &kp F7   &kp F8     &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp DELETE         &kp RCTRL
+&trans         &none              &kp F9  &kp F10   &kp F11  &kp F12    &kp HOME       &kp END             &kp LG(TILDE)   &kp LG(GRAVE)        &kp CAPSLOCK       &trans
+                                          &kp LGUI  &trans   &kp RET    &kp SPACE      &trans              &kp RALT
             >;
         };
 
