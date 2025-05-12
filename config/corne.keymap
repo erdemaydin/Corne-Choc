@@ -65,30 +65,6 @@
             key-positions = <30 31>;
             layers = <0>;
         };
-
-        ij_recent {
-            bindings = <&kp LG(E)>;
-            key-positions = <18 19>;
-            layers = <0>;
-        };
-
-        ij_next_split {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <32 33>;
-            layers = <0>;
-        };
-
-        ij_recent_tabbed {
-            bindings = <&kp LS(LG(E))>;
-            key-positions = <18 19 20>;
-            layers = <0>;
-        };
-
-        ij_statusbar_nav {
-            bindings = <&kp LA(LG(DOWN_ARROW))>;
-            key-positions = <30 31 32>;
-            layers = <0>;
-        };
     };
 
     keymap {
