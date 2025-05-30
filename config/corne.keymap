@@ -46,29 +46,35 @@
             bindings = <&kp LS(LC(F10))>;
             key-positions = <5 4>;
             layers = <0>;
+            require-prior-idle-ms = <230>;
         };
 
         ij_last_run_task_run {
             bindings = <&kp LS(F10)>;
             key-positions = <17 16>;
             layers = <0>;
+            require-prior-idle-ms = <230>;
         };
 
         ij_stop_running_task {
             bindings = <&kp LG(F2)>;
             key-positions = <2 3>;
             layers = <0>;
+            require-prior-idle-ms = <230>;
         };
 
         ij_project_files {
             bindings = <&kp LG(NUMBER_1)>;
             key-positions = <30 31>;
             layers = <0>;
+            require-prior-idle-ms = <230>;
         };
 
         ij_run_menu {
             bindings = <&kp LS(LA(F10))>;
             key-positions = <6 7>;
+            layers = <0>;
+            require-prior-idle-ms = <230>;
         };
     };
 
