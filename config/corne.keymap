@@ -62,7 +62,7 @@
 
         ij_project_files {
             bindings = <&kp LG(NUMBER_1)>;
-            key-positions = <29 28 30 31>;
+            key-positions = <30 31>;
             layers = <0>;
         };
     };
