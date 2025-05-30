@@ -65,6 +65,11 @@
             key-positions = <30 31>;
             layers = <0>;
         };
+
+        ij_run_menu {
+            bindings = <&kp LS(LA(F10))>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
